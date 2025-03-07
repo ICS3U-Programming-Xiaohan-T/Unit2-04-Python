@@ -11,10 +11,10 @@ def main():
     radius = int(input("Enter the radius of the circle (cm): "))
     circumference = math.pi * radius * 2
     area = math.pi * radius**2
-
+    # output the results
     print("")
-    print("Circumference = {} cm".format(circumference))
-    print("Area = {} cm".format(area))
+    print("Circumference = {:.2f} cm".format(circumference))
+    print("Area = {:.2f} cm²".format(area))
 
 
 if __name__ == "__main__":
